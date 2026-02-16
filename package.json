@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@casl/ability": "4.1.6",
+    "@casl/ability": "6.7.5",
     "@casl/vue": "1.1.1",
     "@fullcalendar/common": "5.x",
     "@fullcalendar/core": "5.x",
@@ -21,7 +21,7 @@
     "@vueuse/core": "4.0.0",
     "animate.css": "4.1.1",
     "apexcharts": "3.27.3",
-    "axios": "0.21.1",
+    "axios": "1.13.5",
     "axios-mock-adapter": "1.19.0",
     "bootstrap": "4.6.0",
     "bootstrap-vue": "2.21.1",
