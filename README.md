@@ -18,6 +18,7 @@ yarn serve
 ```
 yarn build
 npm exec serve -l 8081 dist
+npm exec -- serve dist -l 8081
 ```
 
 ### Lints and fixes files

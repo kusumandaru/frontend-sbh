@@ -18,7 +18,7 @@
             <validation-provider
               #default="validationContext"
               name="Current Password"
-              rules="required|password"
+              rules="required"
             >
               <b-form-group
                 label="Current Password"

@@ -261,7 +261,8 @@ export default {
           const downloadLink = document.createElement('a')
           downloadLink.href = response.data.url
           downloadLink.download = response.data.filename
-
+          downloadLink.target = '_blank'
+          downloadLink.rel = 'noopener noreferrer'
           document.body.appendChild(downloadLink)
           downloadLink.click()
           document.body.removeChild(downloadLink)
@@ -347,7 +348,8 @@ export default {
         const downloadLink = document.createElement('a')
         downloadLink.href = response.data.url
         downloadLink.download = response.data.filename
-
+        downloadLink.target = '_blank'
+        downloadLink.rel = 'noopener noreferrer'
         document.body.appendChild(downloadLink)
         downloadLink.click()
         document.body.removeChild(downloadLink)

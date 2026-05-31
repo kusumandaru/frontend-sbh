@@ -192,7 +192,8 @@ export default {
           // window.open(url)
           const downloadLink = document.createElement('a')
           downloadLink.href = url
-
+          downloadLink.target = '_blank'
+          downloadLink.rel = 'noopener noreferrer'
           document.body.appendChild(downloadLink)
           downloadLink.click()
           document.body.removeChild(downloadLink)
@@ -280,7 +281,8 @@ export default {
           // window.open(url)
           const downloadLink = document.createElement('a')
           downloadLink.href = url
-
+          downloadLink.target = '_blank'
+          downloadLink.rel = 'noopener noreferrer'
           document.body.appendChild(downloadLink)
           downloadLink.click()
           document.body.removeChild(downloadLink)

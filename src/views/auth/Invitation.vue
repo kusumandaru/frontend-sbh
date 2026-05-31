@@ -304,7 +304,7 @@ export default {
       userEmail: '',
       registerPassword: '',
       repeatPassword: '',
-      sideImg: require('@/assets/images/pages/login-v3.png'),
+      sideImg: require('@/assets/images/pages/login-v5.jpeg'),
       // validation
       required,
       email,
@@ -318,7 +318,7 @@ export default {
     imgUrl() {
       if (store.state.appConfig.layout.skin === 'dark') {
         // eslint-disable-next-line vue/no-side-effects-in-computed-properties
-        this.sideImg = require('@/assets/images/pages/login-v3.png')
+        this.sideImg = require('@/assets/images/pages/login-v5.jpeg')
         return this.sideImg
       }
       return this.sideImg
